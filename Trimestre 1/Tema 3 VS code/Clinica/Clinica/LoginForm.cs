@@ -23,7 +23,7 @@ namespace LoginView
 
         private void btnEntrar_Click(object sender, EventArgs e)
         { 
-            switch (controllerlogin.LoginVerificar(txbUsuario.Text))
+            switch (controllerlogin.LoginVerificar(txbUsuario.Text, txbContraseña))
             {
                 case (1): //direccion
                     MessageBox.Show("Lo lamentamos, esta sección esta en construcción.",

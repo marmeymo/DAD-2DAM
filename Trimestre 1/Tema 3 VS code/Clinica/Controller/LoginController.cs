@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,8 +9,9 @@ namespace controller
 {
     public class LoginController
     {
-        public int LoginVerificar(String usuario)
+        public int LoginVerificar(String usuario, String password)
         {
+            string[] lineas = File.ReadAllLines("");
             switch(usuario.ToLower())
             {
                 case "direccion":

@@ -19,7 +19,7 @@ namespace Clinica
 
         private void pacientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            toolStrip1.Visible(true);
+            toolStrip1.Visible = true;
         }
 
         private void centroDeDíaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -42,6 +42,12 @@ namespace Clinica
             DialogResult messageoption = MessageBox.Show("Estas seguro de terminar la aplicación?", "Finalizar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (messageoption == DialogResult.Yes)
                 Environment.Exit(0);
+        }
+
+        private void CrearPacientetoolStripButton_Click(object sender, EventArgs e)
+        {
+            CrearPacienteForm crearPacienteForm = new CrearPacienteForm();
+            crearPacienteForm.ShowDialog();
         }
     }
 }

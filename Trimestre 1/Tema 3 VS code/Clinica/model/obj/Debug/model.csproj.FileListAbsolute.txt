@@ -4,3 +4,9 @@ C:\Users\dam2\Source\Repos\Clinica\model\obj\Debug\model.csproj.AssemblyReferenc
 C:\Users\dam2\Source\Repos\Clinica\model\obj\Debug\model.csproj.CoreCompileInputs.cache
 C:\Users\dam2\Source\Repos\Clinica\model\obj\Debug\model.dll
 C:\Users\dam2\Source\Repos\Clinica\model\obj\Debug\model.pdb
+Z:\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\model\obj\Debug\model.csproj.AssemblyReference.cache
+Z:\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\model\obj\Debug\model.Properties.Resources.resources
+Z:\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\model\obj\Debug\model.csproj.GenerateResource.cache
+Z:\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\model\obj\Debug\model.csproj.CoreCompileInputs.cache
+Z:\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\model\obj\Debug\model.dll
+Z:\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\model\obj\Debug\model.pdb
