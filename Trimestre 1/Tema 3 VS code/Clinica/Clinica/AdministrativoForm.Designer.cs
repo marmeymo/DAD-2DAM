@@ -119,6 +119,7 @@
             this.BuscarPacientetoolStripButton.Name = "BuscarPacientetoolStripButton";
             this.BuscarPacientetoolStripButton.Size = new System.Drawing.Size(23, 22);
             this.BuscarPacientetoolStripButton.Text = "toolStripButton";
+            this.BuscarPacientetoolStripButton.Click += new System.EventHandler(this.BuscarPacientetoolStripButton_Click);
             // 
             // CrearPacientetoolStripButton
             // 
@@ -138,6 +139,7 @@
             this.EliminarPacientetoolStripButton.Name = "EliminarPacientetoolStripButton";
             this.EliminarPacientetoolStripButton.Size = new System.Drawing.Size(23, 22);
             this.EliminarPacientetoolStripButton.Text = "toolStripButton3";
+            this.EliminarPacientetoolStripButton.Click += new System.EventHandler(this.EliminarPacientetoolStripButton_Click);
             // 
             // VerFichaPacientetoolStripButton
             // 

@@ -49,5 +49,15 @@ namespace Clinica
             CrearPacienteForm crearPacienteForm = new CrearPacienteForm();
             crearPacienteForm.ShowDialog();
         }
+
+        private void BuscarPacientetoolStripButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EliminarPacientetoolStripButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

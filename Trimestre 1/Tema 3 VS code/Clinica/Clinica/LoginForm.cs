@@ -16,6 +16,7 @@ namespace LoginView
     {
         LoginController controllerlogin = new LoginController();
         PersonalSanitarioForm personalSanitarioForm = new PersonalSanitarioForm();
+        AdministrativoForm administrativoForm = new AdministrativoForm();
         public LoginForm()
         {
             InitializeComponent();
@@ -23,23 +24,24 @@ namespace LoginView
 
         private void btnEntrar_Click(object sender, EventArgs e)
         { 
-            switch (controllerlogin.LoginVerificar(txbUsuario.Text, txbContraseña))
+            switch (controllerlogin.LoginVerificar(txbUsuario.Text, txbContraseña.Text))
             {
-                case (1): //direccion
+                case 1: //direccion
                     MessageBox.Show("Lo lamentamos, esta sección esta en construcción.",
                         "Direccion login",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Exclamation);
                     break;
-                case (2): //administrativo
+                case 2: //administrativo
+                    administrativoForm.Show();
                     break;
-                case (3): //admin
+                case 3: //admin
                     MessageBox.Show("Lo lamentamos, esta sección esta en construcción.",
                         "administrador login",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Exclamation);
                     break;
-                case (4): //personalsani
+                case 4: //personalsani
                     personalSanitarioForm.Show();
                     break;
 

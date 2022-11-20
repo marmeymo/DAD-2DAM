@@ -13,3 +13,22 @@ C:\Users\dam2\Source\Repos\Clinica\Clinica\obj\Debug\Clinica.exe
 C:\Users\dam2\Source\Repos\Clinica\Clinica\obj\Debug\Clinica.pdb
 C:\Users\dam2\Source\Repos\Clinica\Clinica\obj\Debug\LoginView.LoginForm.resources
 C:\Users\dam2\Source\Repos\Clinica\Clinica\obj\Debug\Clinica.PersonalSanitarioForm.resources
+C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\obj\Debug\view.csproj.AssemblyReference.cache
+C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\obj\Debug\view.csproj.SuggestedBindingRedirects.cache
+C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\obj\Debug\Clinica.AdministrativoForm.resources
+C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\obj\Debug\Clinica.CrearPacienteForm.resources
+C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\obj\Debug\LoginView.LoginForm.resources
+C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\obj\Debug\Clinica.PersonalSanitarioForm.resources
+C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\obj\Debug\Clinica.Properties.Resources.resources
+C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\obj\Debug\view.csproj.GenerateResource.cache
+C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\obj\Debug\view.csproj.CoreCompileInputs.cache
+C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\obj\Debug\Clinica.exe
+C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\obj\Debug\Clinica.pdb
+C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\bin\Debug\Clinica.exe.config
+C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\bin\Debug\Clinica.exe
+C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\bin\Debug\Clinica.pdb
+C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\bin\Debug\Controller.dll
+C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\bin\Debug\model.dll
+C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\bin\Debug\Controller.pdb
+C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\bin\Debug\model.pdb
+C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\obj\Debug\view.csproj.CopyComplete

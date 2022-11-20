@@ -1,4 +1,5 @@
-﻿using System;
+﻿using controller;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,8 @@ namespace Clinica
 {
     public partial class CrearPacienteForm : Form
     {
+        AdministrativoController administrativoController = new AdministrativoController();
+
         public CrearPacienteForm()
         {
             InitializeComponent();
@@ -34,6 +37,53 @@ namespace Clinica
 
         private void btnCrearPaciente_Click(object sender, EventArgs e)
         {
+            int numericValue;
+            if (txbNombre.Text == "")
+            {
+                if (txbApellidos.Text == "")
+                {
+                    if (txbDireccion.Text == "")
+                    {
+                        if (txbPoblacion.Text == "")
+                        {
+                            if (txbDni.Text == "")
+                            {
+                                if (txbNhc.Text == "")
+                                {
+
+                                    if (administrativoController.VerificarDni(txbDni.Text)
+                                        && administrativoController.findByDni(txbDni.Text) == null)
+                                    {
+                                        if (int.TryParse(txbNhc.Text, out numericValue) && administrativoController.findByNhc(int.Parse(txbNhc.Text)) == null)
+                                        {
+                                            if (administrativoController.GuardarPaciente(
+                                                txbNombre.Text,
+                                                txbApellidos.Text,
+                                                txbDireccion.Text,
+                                                txbPoblacion.Text,
+                                                txbDni.Text,
+                                                int.Parse(txbNhc.Text))
+                                                )
+                                                MessageBox.Show("El paciente ha sido guardado perfectamente");
+                                            else
+                                                MessageBox.Show("El paciente no ha podido guardarse");
+                                            this.Close();
+                                        } else
+                                            MessageBox.Show("El NHC dado no es númerico o ya existe un paciente con ese NHC");
+                                    } else
+                                        MessageBox.Show("El DNI no es valido o ya existe un paciente con ese DNI");
+                                } else
+                                    MessageBox.Show("No se puede dejar el NHC en blanco");
+                            } else
+                                MessageBox.Show("No se puede dejar el DNI en blanco");
+                        } else
+                            MessageBox.Show("No se puede dejar la poblacion en blanco");
+                    } else
+                        MessageBox.Show("No se puede dejar la direccion en blanco");
+                } else
+                MessageBox.Show("No se puede dejar los apellidos en blanco");
+            } else
+                MessageBox.Show("No se puede dejar el nombre en blanco");
 
         }
     }

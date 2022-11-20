@@ -1,4 +1,5 @@
-﻿using System;
+﻿using model;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -9,24 +10,16 @@ namespace controller
 {
     public class LoginController
     {
+        private GestorFicheroLogin gestorFichero;
+        
+        public LoginController() 
+        { 
+            gestorFichero = new GestorFicheroLogin();
+        }
+
         public int LoginVerificar(String usuario, String password)
         {
-            string[] lineas = File.ReadAllLines("");
-            switch(usuario.ToLower())
-            {
-                case "direccion":
-                    return 1;
-                case "administrativo":
-                    return 2;
-                case "administrador":
-                    return 3;
-                case "admin":
-                    return 3;
-                case "personalsanitario":
-                    return 4;
-                default:
-                    return 0;
-            }
+            return gestorFichero.LeerUser(new User(usuario, password));
         }
     }
 }
