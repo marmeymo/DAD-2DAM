@@ -118,7 +118,7 @@
             this.BuscarPacientetoolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.BuscarPacientetoolStripButton.Name = "BuscarPacientetoolStripButton";
             this.BuscarPacientetoolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.BuscarPacientetoolStripButton.Text = "toolStripButton";
+            this.BuscarPacientetoolStripButton.Text = "BuscarPaciente";
             this.BuscarPacientetoolStripButton.Click += new System.EventHandler(this.BuscarPacientetoolStripButton_Click);
             // 
             // CrearPacientetoolStripButton
@@ -138,7 +138,7 @@
             this.EliminarPacientetoolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.EliminarPacientetoolStripButton.Name = "EliminarPacientetoolStripButton";
             this.EliminarPacientetoolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.EliminarPacientetoolStripButton.Text = "toolStripButton3";
+            this.EliminarPacientetoolStripButton.Text = "EliminarPaciente";
             this.EliminarPacientetoolStripButton.Click += new System.EventHandler(this.EliminarPacientetoolStripButton_Click);
             // 
             // VerFichaPacientetoolStripButton

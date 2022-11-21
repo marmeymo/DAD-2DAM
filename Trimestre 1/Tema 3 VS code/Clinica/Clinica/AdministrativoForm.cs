@@ -52,12 +52,14 @@ namespace Clinica
 
         private void BuscarPacientetoolStripButton_Click(object sender, EventArgs e)
         {
-
+            BuscarPacienteForm buscarPacienteForm = new BuscarPacienteForm();
+            buscarPacienteForm.ShowDialog();
         }
 
         private void EliminarPacientetoolStripButton_Click(object sender, EventArgs e)
         {
-
+            BorrarPacienteForm borrarPacienteForm = new BorrarPacienteForm();
+            borrarPacienteForm.ShowDialog();
         }
     }
 }

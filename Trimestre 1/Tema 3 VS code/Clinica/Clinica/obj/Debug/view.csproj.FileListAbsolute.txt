@@ -32,3 +32,5 @@ C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1
 C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\bin\Debug\Controller.pdb
 C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\bin\Debug\model.pdb
 C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\obj\Debug\view.csproj.CopyComplete
+C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\obj\Debug\Clinica.BuscarPacienteForm.resources
+C:\Users\tucso\OneDrive\Escritorio\Cosas de clase de sergio\DAD-2DAM\Trimestre 1\Tema 3 VS code\Clinica\Clinica\obj\Debug\Clinica.BorrarPacienteForm.resources

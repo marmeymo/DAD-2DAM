@@ -58,6 +58,18 @@
     <Compile Include="CrearPacienteForm.Designer.cs">
       <DependentUpon>CrearPacienteForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="BuscarPacienteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscarPacienteForm.Designer.cs">
+      <DependentUpon>BuscarPacienteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BorrarPacienteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorrarPacienteForm.Designer.cs">
+      <DependentUpon>BorrarPacienteForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +86,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AdministrativoForm.resx">
       <DependentUpon>AdministrativoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BorrarPacienteForm.resx">
+      <DependentUpon>BorrarPacienteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscarPacienteForm.resx">
+      <DependentUpon>BuscarPacienteForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CrearPacienteForm.resx">
       <DependentUpon>CrearPacienteForm.cs</DependentUpon>

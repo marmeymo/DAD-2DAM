@@ -17,10 +17,10 @@ namespace controller
             gestorFicherosPaciente = new GestorFicherosPaciente();
         }
 
-        public Boolean GuardarPaciente(string nombre, string apellidos, string direccion, string poblacion, string dni, int nhc)
+        public Boolean GuardarPaciente(string nombre, string apellidos, string direccion, int codigopostal, string poblacion, string dni, int nhc)
         {
 
-            Paciente paciente = new Paciente(nombre, apellidos, direccion, poblacion, dni, nhc);
+            Paciente paciente = new Paciente(nombre, apellidos, direccion, codigopostal, poblacion, dni, nhc);
             return gestorFicherosPaciente.GuardarPaciente(paciente);
         }
 
@@ -34,9 +34,19 @@ namespace controller
             return gestorFicherosPaciente.findByNhc(nhc);
         }
 
-        public Boolean BorrarPaciente(string dni)
+        public Boolean BorrarPacienteByDni(string dni)
         {
-            return gestorFicherosPaciente.DeletePaciente(dni);
+            return gestorFicherosPaciente.DeletePacienteByDni(dni);
+        }
+
+        public Boolean BorrarPacienteByNhc(int nhc)
+        {
+            return gestorFicherosPaciente.DeletePacienteByNhc(nhc);
+        }
+
+        public List<Paciente> findAll()
+        {
+            return gestorFicherosPaciente.findAll();
         }
 
         public Boolean VerificarDni(string dni)

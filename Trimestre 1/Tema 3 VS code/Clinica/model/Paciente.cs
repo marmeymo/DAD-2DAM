@@ -8,18 +8,20 @@ namespace model
 {
     public class Paciente
     {
-        private string nombre { get; set; }
-        private string apellidos { get; set; }
-        private string direccion { get; set; }
-        private string poblacion { get; set; }
-        private string dni { get; set; }
-        private int nhc { get; set; }
+        public string nombre { get; set; }
+        public string apellidos { get; set; }
+        public string direccion { get; set; }
+        public int codigopostal { get; set; }
+        public string poblacion { get; set; }
+        public string dni { get; set; }
+        public int nhc { get; set; }
 
-        public Paciente(string nombre, string apellidos, string direccion, string poblacion, string dni, int nhc)
+        public Paciente(string nombre, string apellidos, string direccion, int codigopostal, string poblacion, string dni, int nhc)
         {
             this.nombre = nombre;
             this.apellidos = apellidos;
             this.direccion = direccion;
+            this.codigopostal= codigopostal;
             this.poblacion = poblacion;
             this.dni = dni;
             this.nhc = nhc;
@@ -27,9 +29,10 @@ namespace model
 
         public Paciente() { }
 
-        public string toString()
+        override
+        public string ToString()
         {
-            return nombre + ":" + apellidos + ":" + direccion + ":" + poblacion + ":" + dni + ":" + nhc;
+            return nombre + ":" + apellidos + ":" + direccion + ":" + codigopostal+ ":" +poblacion + ":" + dni + ":" + nhc;
         }
 
     }
