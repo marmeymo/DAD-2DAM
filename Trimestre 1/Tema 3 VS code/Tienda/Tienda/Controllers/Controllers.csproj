@@ -41,17 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="CategoriesController.cs" />
+    <Compile Include="CatmanController.cs" />
+    <Compile Include="BasketController.cs" />
+    <Compile Include="LoginController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Models\Models.csproj">
       <Project>{d215d139-85db-4685-af25-7c7b6ad8632a}</Project>
       <Name>Models</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Tienda\Tienda.csproj">
-      <Project>{0925e59e-9136-4139-8bb2-25f42c2ce9b5}</Project>
-      <Name>Tienda</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
