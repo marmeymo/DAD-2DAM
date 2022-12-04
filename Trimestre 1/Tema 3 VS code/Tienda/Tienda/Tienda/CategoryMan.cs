@@ -78,7 +78,7 @@ namespace Tienda
                 cantidadPedir.setStock();
                 cantidadPedir.ShowDialog();
                 int quantitypedida = cantidadPedir.quantitypedida;
-                if (basketController.saveBasket(id, name, (price * quantitypedida)) && catmanController.UpdateCatman(id, name, category, description, price, quantitypedida))
+                if (basketController.saveBasket(id, name, (price * quantitypedida)) && catmanController.UpdateCatman(id, name, category, description, price, (quantity - quantitypedida)))
                 {
                     MessageBox.Show("Pedido creado correctamente");
                 }
