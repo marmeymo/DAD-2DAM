@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="694.0" prefWidth="953.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.iespuertodelacruz.sr.recetas.controllers.FXMLDocumentController">
+   <children>
+      <VBox layoutX="-2.0" layoutY="154.0" prefHeight="540.0" prefWidth="201.0">
+         <children>
+            <Pane prefHeight="92.0" prefWidth="201.0" style="-fx-background-color: #277CE0;">
+               <children>
+                  <Label alignment="CENTER" layoutX="14.0" layoutY="8.0" prefHeight="71.0" prefWidth="117.0" text="Principal " textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIconView glyphName="HOME" layoutX="133.0" layoutY="57.0" size="40" wrappingWidth="36.071428298950195">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </FontAwesomeIconView>
+               </children>
+            </Pane>
+            <Separator disable="true" prefHeight="13.0" prefWidth="200.0" style="-fx-background-color: white;" />
+            <Pane prefHeight="88.0" prefWidth="201.0" style="-fx-background-color: #277CE0;" />
+            <Separator disable="true" prefHeight="13.0" prefWidth="200.0" style="-fx-background-color: white;" />
+            <Pane prefHeight="88.0" prefWidth="201.0" style="-fx-background-color: #277CE0;" />
+            <Separator disable="true" prefHeight="13.0" prefWidth="200.0" style="-fx-background-color: white;" />
+            <Pane prefHeight="88.0" prefWidth="201.0" style="-fx-background-color: #277CE0;" />
+            <Separator disable="true" prefHeight="13.0" prefWidth="200.0" style="-fx-background-color: white;" />
+            <Pane prefHeight="88.0" prefWidth="201.0" style="-fx-background-color: #277CE0;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Pane>
+            <Separator disable="true" prefHeight="13.0" prefWidth="200.0" style="-fx-background-color: white;" />
+            <Pane prefHeight="88.0" prefWidth="201.0" style="-fx-background-color: #277CE0;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Pane>
+         </children>
+      </VBox>
+      <HBox layoutX="-1.0" prefHeight="100.0" prefWidth="959.0">
+         <children>
+            <Pane prefHeight="100.0" prefWidth="964.0" style="-fx-background-color: #277CE0;">
+               <children>
+                  <Label alignment="CENTER" prefHeight="100.0" prefWidth="173.0" text="Dashboard" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
