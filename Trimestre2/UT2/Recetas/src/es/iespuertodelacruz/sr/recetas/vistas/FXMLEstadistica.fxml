@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="852.0" prefWidth="1092.0" style="-fx-background-color: #277CE0;" xmlns="http://javafx.com/javafx/8.0.261" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.iespuertodelacruz.sr.recetas.controllers.FXMLEstadisticaController">
+   <children>
+      <Label alignment="CENTER" layoutX="41.0" prefHeight="64.0" prefWidth="1022.0" style="-fx-background-color: #d9d9d9;" text="Grafica por tipo de recetas" textAlignment="CENTER">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <BarChart fx:id="RecetasGrafico" barGap="10.0" categoryGap="5.0" layoutX="41.0" layoutY="62.0" prefHeight="339.0" prefWidth="1022.0" style="-fx-background-color: #d9d9d9;">
+        <xAxis>
+          <CategoryAxis fx:id="GraficoX" label="Tipo de recetas" side="BOTTOM">
+               <tickLabelFont>
+                  <Font size="9.0" />
+               </tickLabelFont></CategoryAxis>
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="GraficoY" label="Numero de recetas" prefHeight="359.0" prefWidth="56.0" side="LEFT" tickLabelGap="5.0" upperBound="50.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets></NumberAxis>
+        </yAxis>
+      </BarChart>
+      <PieChart fx:id="PieChart" layoutX="41.0" layoutY="420.0" style="-fx-background-color: #d9d9d9;" />
+   </children>
+</AnchorPane>

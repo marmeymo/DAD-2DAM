@@ -1,0 +1,6 @@
+admin:admin:profesor
+juan:j4:alumno
+pepa:p4:profesor
+p4:p4:profesor
+p5:p5:profesor
+a2:a2:alumno

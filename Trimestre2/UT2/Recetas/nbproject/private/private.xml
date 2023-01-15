@@ -7,5 +7,15 @@
             <file>file:/home/dam2/NetBeansProjects/Recetas/src/es/iespuertodelacruz/sr/recetas/Recetas.java</file>
             <file>file:/home/dam2/NetBeansProjects/Recetas/src/es/iespuertodelacruz/sr/recetas/controllers/FXMLDocumentController.java</file>
         </group>
+        <group name="EjericiosClase">
+            <file>file:/C:/Users/tucso/OneDrive/Escritorio/Cosas%20de%20clase%20de%20sergio/DAD-2DAM/Trimestre2/UT2/Recetas/src/es/iespuertodelacruz/sr/recetas/controllers/FXMLGestionUsuariosController.java</file>
+            <file>file:/C:/Users/tucso/OneDrive/Escritorio/Cosas%20de%20clase%20de%20sergio/DAD-2DAM/Trimestre2/UT2/Recetas/src/es/iespuertodelacruz/sr/recetas/controllers/FXMLUsuariosController.java</file>
+            <file>file:/C:/Users/tucso/OneDrive/Escritorio/Cosas%20de%20clase%20de%20sergio/DAD-2DAM/Trimestre2/UT2/Recetas/src/es/iespuertodelacruz/sr/recetas/models/ManejarFichero.java</file>
+            <file>file:/C:/Users/tucso/OneDrive/Escritorio/Cosas%20de%20clase%20de%20sergio/DAD-2DAM/Trimestre2/UT2/Recetas/src/es/iespuertodelacruz/sr/recetas/controllers/FXMLModificarController.java</file>
+            <file>file:/C:/Users/tucso/OneDrive/Escritorio/Cosas%20de%20clase%20de%20sergio/DAD-2DAM/Trimestre2/UT2/Recetas/src/es/iespuertodelacruz/sr/recetas/Recetas.java</file>
+            <file>file:/C:/Users/tucso/OneDrive/Escritorio/Cosas%20de%20clase%20de%20sergio/DAD-2DAM/Trimestre2/UT2/Recetas/src/es/iespuertodelacruz/sr/recetas/controllers/FXMLDashboardController.java</file>
+            <file>file:/C:/Users/tucso/OneDrive/Escritorio/Cosas%20de%20clase%20de%20sergio/DAD-2DAM/Trimestre2/UT2/Recetas/src/es/iespuertodelacruz/sr/recetas/controllers/AgregarController.java</file>
+            <file>file:/C:/Users/tucso/OneDrive/Escritorio/Cosas%20de%20clase%20de%20sergio/DAD-2DAM/Trimestre2/UT2/Recetas/src/es/iespuertodelacruz/sr/recetas/controllers/FXMLEstadisticaController.java</file>
+        </group>
     </open-files>
 </project-private>

@@ -10,11 +10,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
-/**
- *
- * @author Sergio
- */
 public class Recetas extends Application {
     
     @Override
@@ -25,6 +22,7 @@ public class Recetas extends Application {
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
+        stage.initStyle(StageStyle.UNDECORATED);
         stage.show();
     }
 

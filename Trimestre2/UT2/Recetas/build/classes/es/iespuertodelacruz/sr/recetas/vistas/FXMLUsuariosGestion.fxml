@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="428.0" prefWidth="705.0" style="-fx-background-color: #277CE0;" xmlns="http://javafx.com/javafx/8.0.261" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.iespuertodelacruz.sr.recetas.controllers.FXMLGestionUsuariosController">
+   <children>
+      <Label layoutX="75.0" layoutY="45.0" text="Gestión de Usuarios" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tbvUsuarios" layoutY="128.0" prefHeight="216.0" prefWidth="747.0">
+        <columns>
+          <TableColumn fx:id="tbcNombre" prefWidth="224.0" text="Username" />
+          <TableColumn fx:id="tbcContraseña" prefWidth="232.0" text="Password" />
+            <TableColumn fx:id="tbcRol" prefWidth="290.0" text="Rol" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnAgregar" layoutX="34.0" layoutY="368.0" mnemonicParsing="false" onAction="#Agregar_onClick" text="Agregar Usuario" />
+      <Button fx:id="btnEliminar" layoutX="535.0" layoutY="368.0" mnemonicParsing="false" onAction="#Eliminar_onClick" text="Eliminar Usuario" />
+      <Button fx:id="btnModificar" layoutX="268.0" layoutY="368.0" mnemonicParsing="false" onAction="#Modificar_onClick" text="Modificar Usuario" />
+   </children>
+</AnchorPane>
