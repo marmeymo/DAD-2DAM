@@ -1,0 +1,66 @@
+﻿<Window x:Class="Calculadora.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculadora"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="602" Width="596"
+        Background="LightGray">
+    <!-- Definicion de grid -->
+    <Grid Margin="0,0,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        
+        <!-- Definicion de componentes -->
+        <Label x:Name="numero_anterior" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" FontSize="16" Foreground="Gray" VerticalAlignment="Top" HorizontalAlignment="Right" Width="10"/>
+        <Label x:Name="numero" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" VerticalAlignment="Bottom" HorizontalAlignment="Right" FontSize="44">0</Label>
+        <Button Name="b_CE" Click="b_CE_Click" Grid.Column="0" Grid.Row="2" FontSize="44" Background="White" BorderBrush="LightGray" BorderThickness="3">CE</Button>
+        <Button Name="b_7" Click="b_7_Click" Grid.Column="0" Grid.Row="3" FontSize="44" Background="White" BorderBrush="LightGray" BorderThickness="3">7</Button>
+        <Button Name="b_4" Click="b_4_Click" Grid.Column="0" Grid.Row="4" FontSize="44" Background="White" BorderBrush="LightGray" BorderThickness="3">4</Button>
+        <Button Name="b_1" Click="b_1_Click" Grid.Column="0" Grid.Row="5" FontSize="44" Background="White" BorderBrush="LightGray" BorderThickness="3">1</Button>
+        <Button Name="b_masmenos" Click="b_masmenos_Click" Grid.Column="0" Grid.Row="6" FontSize="44" Background="White" BorderBrush="LightGray" BorderThickness="3">±</Button>
+        <Button Name="b_C" Click="b_CE_Click" Grid.Column="1" Grid.Row="2" FontSize="44" Background="White" BorderBrush="LightGray" BorderThickness="3">C</Button>
+        <Button Name="b_8" Click="b_8_Click" Grid.Column="1" Grid.Row="3" FontSize="44" Background="White" BorderBrush="LightGray" BorderThickness="3">8</Button>
+        <Button Name="b_5" Click="b_5_Click" Grid.Column="1" Grid.Row="4" FontSize="44" Background="White" BorderBrush="LightGray" BorderThickness="3">5</Button>
+        <Button Name="b_2" Click="b_2_Click" Grid.Column="1" Grid.Row="5" FontSize="44" Background="White" BorderBrush="LightGray" BorderThickness="3">2</Button>
+        <Button Name="b_0" Click="b_0_Click" Grid.Column="1" Grid.Row="6" FontSize="44" Background="White" BorderBrush="LightGray" BorderThickness="3">0</Button>
+        <Button Name="b_borrar" Click="b_borrar_Click" Grid.Column="2" Grid.Row="2" FontSize="44" Background="White" BorderBrush="LightGray" BorderThickness="3">⌫</Button>
+        <Button Name="b_9" Click="b_9_Click" Grid.Column="2" Grid.Row="3" FontSize="44" Background="White" BorderBrush="LightGray" BorderThickness="3">9</Button>
+        <Button Name="b_6" Click="b_6_Click" Grid.Column="2" Grid.Row="4" FontSize="44" Background="White" BorderBrush="LightGray" BorderThickness="3">6</Button>
+        <Button Name="b_3" Click="b_3_Click" Grid.Column="2" Grid.Row="5" FontSize="44" Background="White" BorderBrush="LightGray" BorderThickness="3">3</Button>
+        <Button Name="b_coma" Click="b_coma_Click" Grid.Column="2" Grid.Row="6" FontSize="44" Background="White" BorderBrush="LightGray" BorderThickness="3">,</Button>
+        <Button Name="b_dividir" Click="b_dividir_Click" Grid.Column="3" Grid.Row="2" FontSize="44" Background="White" BorderBrush="LightGray" BorderThickness="3">÷</Button>
+        <Button Name="b_multiplicar" Click="b_multiplicar_Click" Grid.Column="3" Grid.Row="3" FontSize="44" Background="White" BorderBrush="LightGray" BorderThickness="3">x</Button>
+        <Button Name="b_menos" Click="b_menos_Click" Grid.Column="3" Grid.Row="4" FontSize="44" Background="White" BorderBrush="LightGray" BorderThickness="3">-</Button>
+        <Button Name="b_mas" Click="b_mas_Click" Grid.Column="3" Grid.Row="5" FontSize="44" Background="White" BorderBrush="LightGray" BorderThickness="3">+</Button>
+        <Button Name="b_igual" Click="b_igual_Click" Grid.Column="3" Grid.Row="6" FontSize="44" Background="White" BorderBrush="LightGray" BorderThickness="3">=</Button>
+        <Menu Grid.RowSpan="2" Background="LightGray">
+            <MenuItem Header="  ☰" FontSize="40" Width="102" Height="73"  BorderBrush="{x:Null}">
+                <MenuItem Header="Estándar" FontSize="14"/>
+                <MenuItem Header="Científica" FontSize="14"/>
+                <MenuItem Header="Gráfica" FontSize="14"/>
+                <MenuItem Header="Programador" FontSize="14"/>
+                <MenuItem Header="Cálculo de la fecha" FontSize="14"/>
+                <Separator/>
+                <MenuItem Header="Moneda" FontSize="14" Click="MenuItemMoneda_Click"/>
+                <MenuItem Header="Volumen" FontSize="14"/>
+                <Separator/>
+                <MenuItem Header="Acerca de" FontSize="14"/>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>
